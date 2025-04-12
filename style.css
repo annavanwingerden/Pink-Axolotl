@@ -19,8 +19,10 @@ body {
 
 #welcomeButton {
     position: absolute;
-    top: 16%;
+    top: 17%;
     left: 40%;
+    width: 35%;
+    height: 14%;
     transform: translateX(-50%);
     width: 200px; 
     cursor: pointer;
@@ -52,8 +54,7 @@ body {
     display: none; 
 }
 
-
-#character {
+#axolotl {
     width: 113px;
     height: 75px;
     position: absolute;
@@ -61,4 +62,15 @@ body {
     left: 50%;    
     transform: translate(-50%, -50%);
     cursor: grab;
+}
+
+#dropArea {
+    width: 200px;
+    height: 200px;
+    border: 2px dashed #4CAF50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto; 
+    position: relative;
 }
